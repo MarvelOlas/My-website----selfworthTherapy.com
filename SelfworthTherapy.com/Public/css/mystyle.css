@@ -1,0 +1,129 @@
+* {
+
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+body{
+    background-size: cover;
+    color: black;
+}
+.registration-form{
+
+    height: 620px;
+    width: 500px;
+    margin: 9% auto 0;
+    border-radius: 10px;
+    background-color: aliceblue;
+
+}
+button:hover {
+    background-color: yellow;
+}
+ h1{
+    text-align: center;
+    padding-top: 15px;
+}
+.registration-form h4{
+    text-align: center;
+    padding-top: 15px;
+}
+form{
+    width: 300px;
+    margin-left:20px;
+}
+form label{
+    display: flex;
+    margin-top: 20px;
+    font-size: 18px;
+}
+form input{
+    width: 420px;
+    padding: 7px;
+    border: none;
+    border: 1px solid gray;
+    border-radius: 7px;
+    outline: none;
+}
+
+button{
+    width: 440px;
+    height:35px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 25px;
+    background-color: lawngreen;
+
+}
+p{
+    text-align: center;
+    padding-top: 20px;
+
+}
+/**
+background: url("img/background.jpg");
+ */
+
+.login-form{
+    width: 490px;
+    height: 310px;
+    background-color: aliceblue;
+    margin: 15% auto 0;
+    border-radius: 10px;
+}
+
+button:hover {
+    background-color: yellow;}
+
+.error {color: #FF0000;}
+/*
+.registration-form{
+    position: absolute;
+    background-color: blue;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 360px;
+    height: auto;
+    border: 10px;
+}
+
+.registration-form input{
+    font-size: 16px;
+    padding: 15px 10px;
+    border: 0;
+    width: 100%;
+    border-radius: 5px;
+    outline: none;
+}
+
+.registration-form button{
+    font-size: 18px;
+    font-weight: bold;
+    margin: 20px 0;
+    padding: 10px 15px;
+    width: 100%;
+    border: 0;
+    border-radius: 25px;
+    background-color:lawngreen;
+}
+
+
+.registration-form w{
+    font-size: 18px;
+    font-weight: bold;
+    color: chartreuse;
+}
+.registration-form h1{
+    font-size: 40px;
+    text-align: left;
+    text-transform: uppercase;
+    margin: 40px 0;
+}
+
+
+https://www.youtube.com/watch?v=-1oE7CWweIE        - form styling
+
+https://www.youtube.com/watch?v=bmhHrLOvwCY      - nav bar styling
+ */

@@ -1,0 +1,156 @@
+* {
+
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+body{
+    /*  background: black; */
+    background-size: cover;
+    color: black;
+}
+
+
+.registration-form{
+
+    background-color: blue;
+    width: 360px;
+    height: 620px;
+    margin: auto;
+    border-radius: 3px;
+
+}
+
+
+button:hover {
+    background-color: yellow;
+}
+.registration-form h1{
+    text-align: center;
+    padding-top: 15px;
+}
+.registration-form h4{
+    text-align: center;
+    padding-top: 15px;
+}
+
+form{
+    width: 320px;
+    margin-left:21px;
+}
+
+form label{
+    display: flex;
+    margin-top: 20px;
+    font-size: 18px;
+}
+form input{
+    width: 100%;
+    padding: 8px;
+    border: none;
+    border: 1px solid gray;
+    border-radius: 7px;
+    outline: none;
+}
+input[type="submit"]{
+    width: 320px;
+    height:35px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 25px;
+    background-color: lawngreen;
+
+}
+/**
+background: url("img/background.jpg");
+ */
+
+
+/*
+body{
+    /* background-size: cover;
+     color: #fff;
+} */
+.login-form{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 350px;
+    border: 10px;
+}
+.login-form input{
+    font-size: 16px;
+    padding: 15px 10px;
+    border: 0;
+    width: 100%;
+    border-radius: 5px;
+    outline: none;
+}
+.login-form button{
+    font-size: 18px;
+    font-weight: bold;
+    margin: 20px 0;
+    padding: 10px 15px;
+    width: 100%;
+    border: 0;
+    border-radius: 25px;
+    background-color:lawngreen;
+    text-align: center;
+
+}
+button:hover {
+    background-color: yellow;
+}
+.login-form label{
+    font-size: 18px;
+    font-weight: bold;
+    color: chartreuse;
+}
+
+/*
+.registration-form{
+    position: absolute;
+    background-color: blue;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 360px;
+    height: auto;
+    border: 10px;
+}
+
+.registration-form input{
+    font-size: 16px;
+    padding: 15px 10px;
+    border: 0;
+    width: 100%;
+    border-radius: 5px;
+    outline: none;
+}
+
+.registration-form button{
+    font-size: 18px;
+    font-weight: bold;
+    margin: 20px 0;
+    padding: 10px 15px;
+    width: 100%;
+    border: 0;
+    border-radius: 25px;
+    background-color:lawngreen;
+}
+
+
+.registration-form w{
+    font-size: 18px;
+    font-weight: bold;
+    color: chartreuse;
+}
+.registration-form h1{
+    font-size: 40px;
+    text-align: left;
+    text-transform: uppercase;
+    margin: 40px 0;
+}
+ */

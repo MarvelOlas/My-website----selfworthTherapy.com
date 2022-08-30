@@ -1,0 +1,13 @@
+
+p{
+    font-size: 24px;
+    font-weight: 400
+}
+
+.content {
+    top: 100px;
+    left: 50%;
+    margin: auto;
+    background: white;
+    padding: 10px;
+}
